@@ -42,8 +42,6 @@ describe('Gilded Rose', function () {
         ]);
 
         const updatedTestItems = testItems.updateQuality();
-        console.log(updatedTestItems);
-        console.log(expectedItems);
         chai.expect(updatedTestItems).to.eql(expectedItems.items);
     })
 
